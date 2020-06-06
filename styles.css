@@ -97,6 +97,7 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  /* adapted from https://getflywheel.com/layout/flexbox-create-modern-card-design-layout/ */
   flex: 0 1 50%;
 }
 .card:hover {
@@ -178,6 +179,7 @@ a.social:hover {
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
+      /* adapted from https://getflywheel.com/layout/flexbox-create-modern-card-design-layout/ */
       flex-wrap: wrap;
   }
 
